@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "yeniMesaj",
+						"type": "string"
+					}
+				],
+				"name": "mesajDegistir",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mesajiGoruntule",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Chainlink Bootcamp/Day2/KayıtOl.sol": "Depolama"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Chainlink Bootcamp/Day2/KayıtOl.sol": {
+			"keccak256": "0x56dff4dd8caaba14e6bc2f1f7ad17b5859b6ddb22df48592911bc75fdc6a0c13",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://88bd0dd394712dbbef5e9ee9ddfa7bd90144495f4776a1320cf9009565e709c7",
+				"dweb:/ipfs/QmRcaZhim2bdhtmAfaPgditoid9ri9HXVZ1pqJf3wqCLtg"
+			]
+		}
+	},
+	"version": 1
+}
